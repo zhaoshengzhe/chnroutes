@@ -11,7 +11,7 @@ func TestIspravite(t *testing.T) {
 	class_a := "10.1.1.5"
 	class_b := "172.25.255.1"
 	class_c := "192.168.65.5"
-	pub := “1.23.4.7”
+	pub := "1.0.5.255"
 	if Ispravite(class_a) == false {
 		t.Log("class A:", class_a, "should be pravite")
 		t.Fail()
@@ -24,8 +24,8 @@ func TestIspravite(t *testing.T) {
 		t.Log("class C:", class_c, "should be pravite")
 		t.Fail()
 	}
-	if Ispravite(pub) != false {
-		t.Log(“pub:”, pub, "should be public”)
+	if Ispravite(pub) == true {
+		t.Log("pub:", pub, "should be public")
 		t.Fail()
 	}
 }
