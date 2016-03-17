@@ -1329,6 +1329,8 @@ route 103.210.248.0 255.255.254.0 net_gateway 5
 route 103.210.251.0 255.255.255.0 net_gateway 5
 route 103.211.6.0 255.255.254.0 net_gateway 5
 route 103.211.24.0 255.255.254.0 net_gateway 5
+route 103.211.27.0 255.255.255.0 net_gateway 5
+route 103.211.48.0 255.255.255.0 net_gateway 5
 route 103.224.21.0 255.255.255.0 net_gateway 5
 route 103.224.49.0 255.255.255.0 net_gateway 5
 route 103.224.52.0 255.255.254.0 net_gateway 5
